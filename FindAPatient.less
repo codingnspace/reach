@@ -1,0 +1,59 @@
+@import '~bootstrap/less/variables';
+
+.FindPatient {
+	margin: auto;
+	width: 80%;
+}
+
+.FindPatient .Button {
+	width: 50%;
+}
+
+.FindPatient .Divider {
+	width: 60%;
+}
+
+.FindPatient .SearchBox {
+	width: 60%;
+}
+
+.FindPatient .SearchBox .FormControl,
+.FindPatient .SearchBox__input.form-control {
+	width: 100%;
+}
+
+.FindPatient .SearchBox .FormControl .FormControl__input input {
+	border-radius: 4px;
+}
+
+.FindPatient__resultBox {
+	margin-top: 3em;
+}
+
+.FindPatient__resultCount {
+	font-size: 110%;
+	margin-bottom: 1em;
+}
+
+.FindPatient__skipLink {
+	position: relative;
+	bottom: 1.5em;
+}
+
+@media (max-width: @screen-sm) {
+	.FindPatient .SearchBox svg {
+		fill-opacity: 0;
+	}
+
+	.FindPatient .Button {
+		width: 100%;
+	}
+
+	.FindPatient .Divider {
+		width: 100%;
+	}
+
+	.FindPatient .SearchBox {
+		width: 100%;
+	}
+}
